@@ -14,10 +14,10 @@ export default function Rules() {
           <li>Select any number from above given number.</li>
           <li>Click on dice image to roll it.</li>
           <li>
-            If selected number is equals to dice number you will get same point
-            as dice
+            If selected number is equals to dice number you will get same points
+            as dice & added to the previous obtained score.
           </li>
-          <li>If you get wrong guess then 2 points will be dedcuted.</li>
+          <li>If you get wrong guess then 2 points will be deducted.</li>
         </ol>
 
         <button className={rules_btn} onClick={() => navigate("/dice-game")}>

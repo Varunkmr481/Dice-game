@@ -40,6 +40,12 @@
   width: 100%;
 }
 
+.navbar .selection_box .error {
+  color: red;
+  height: 20px;
+  font-size: 0.7rem;
+}
+
 .number_options ul {
   width: 100%;
   display: flex;
@@ -63,6 +69,11 @@
   background-color: black;
   color: white;
   transition: all 0.3s ease-in;
+}
+
+.number_options ul li .active {
+  background-color: black;
+  color: white;
 }
 
 .number_label {
@@ -94,6 +105,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .dice_image img {
@@ -155,6 +167,12 @@
     gap: 0.6rem;
   }
 
+  .navbar .selection_box .error {
+    color: red;
+    height: 20px;
+    font-size: 0.8rem;
+  }
+
   .number_options ul {
     gap: 1rem;
   }
@@ -196,6 +214,12 @@
     gap: 0.8rem;
   }
 
+  .navbar .selection_box .error {
+    color: red;
+    height: 20px;
+    font-size: 0.9rem;
+  }
+
   .number_options ul {
     gap: 1.2rem;
   }
@@ -210,6 +234,12 @@
 @media (min-width: 768px) {
   .selection_box {
     gap: 0.9rem;
+  }
+
+  .navbar .selection_box .error {
+    color: red;
+    height: 20px;
+    font-size: 1rem;
   }
 
   .number_options ul {
